@@ -1,0 +1,247 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    background-color: #000;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+        
+}
+main{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 5rem;
+    
+    width: 100%;
+    height: 8rem;
+    background-color: #000;
+
+    position: fixed;
+
+    border-bottom: #2b2b2b solid 0.2rem;
+    
+    margin-bottom: 5rem;
+
+
+}
+
+#logo{
+
+    height: 10rem;
+    width: 20rem;
+
+}
+
+#menu-fixo{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 3rem;
+
+    text-decoration: none;
+
+    font-size: 1.7rem;
+
+
+}
+
+#times-menu-fixo{
+
+    height: 100%;
+    color: #e1ff57;
+    border-bottom: #e1ff57 solid 0.3rem;
+
+}
+
+#menu-fixo-extremidade{ margin-left: 49rem; }
+
+button{ cursor: pointer; }
+
+
+#botao-1, #botao-2{
+
+
+    height: 5rem;
+    width: 9rem;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+
+}
+
+#botao-1{
+
+
+    background-color: #000;
+    border: solid white 0.1rem;
+    margin-right: 2.5rem;
+
+}
+
+#botao-2{
+
+
+    border: none;
+    background-color: #2b2b2b;
+    width: 10rem;
+    font-size: 1.5rem;
+
+}
+
+#botao-2:hover{
+
+
+    background-color: white;
+    color: #000;
+    transition: background-color .5s;
+
+}
+
+#titulo{
+
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+
+
+#logo-santos{
+
+    height: 12rem;
+    width: 12rem;
+    border-radius: 100%;
+    border: solid #2b2b2b 0.2rem;
+
+    margin-left: 5rem;
+    margin-right: 2.5rem;
+
+    padding: 1.8rem;
+
+}
+
+#santos{
+
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#time{
+
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#menu-time{
+
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    text-decoration: none;
+
+    font-size: 1.5rem;
+
+    list-style: none;
+    margin-bottom: 2rem;
+    font-weight: bold;
+
+}
+
+#elenco{ border-bottom: solid white 0.2rem; padding-bottom: 0.5rem;}
+
+nav{ border-bottom: #2b2b2b solid 0.2rem;}
+
+.jogadores{
+
+    margin-top: 5rem;
+    margin-left: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+aside{
+
+    background-color: #2b2b2b;
+    border-radius: 0.5rem;
+
+    height: 10rem;
+    width: 40rem;
+
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.pfp-jogador{
+
+    height: 5.9rem;
+    width: 5.9rem;
+
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+
+    border-radius: 100%;
+
+}
+
+.pos{
+
+    font-size: 1.5rem ;
+
+}
+
+.nome{ font-size: 2rem; }
+
+.posicao{
+
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.conteiner-jogadores{
+
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+
+
+}
