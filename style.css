@@ -210,6 +210,19 @@ aside{
 
 }
 
+aside:hover{
+
+    border: solid white 0.3rem;
+    cursor: pointer;
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: transform .5s;
+
+
+}
+
 .pfp-jogador{
 
     height: 5.9rem;
@@ -235,13 +248,26 @@ aside{
     font-weight: bold;
     font-size: 1.5rem;
 
+    display: flex;
+    flex-direction: row;
+    
+    
 }
 
 .conteiner-jogadores{
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
     gap: 5rem;
 
+
+}
+
+.jogadores{
+
+    margin-right: 10rem;
+    margin-left: 5rem;
 
 }
